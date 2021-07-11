@@ -6,5 +6,12 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'parent-child';
+
+  inputText: string = 'Hi...have a nice day - message from parent';
+
+  receiveChildData(data){
+  console.log(data);
+
+  }
+
 }
